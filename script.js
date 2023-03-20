@@ -28,6 +28,8 @@ class ContaEspecial extends ContaBancaria{
 
 let contaLele2023 = new ContaEspecial(8000, 120000);
 
+let contaVanessa = new ContaEspecial (584123, 985632);
+
 contaLele2023.saque(11000);
 
 console.log(contaLele2023);
